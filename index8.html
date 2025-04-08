@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Boris Dev</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <div class="max-w-6xl mx-auto my-10 bg-white rounded-3xl shadow-lg overflow-hidden grid grid-cols-1 md:grid-cols-3">
+    <!-- Partie gauche : personnelle -->
+    <aside class="bg-blue-700 text-white p-6 space-y-6">
+      <div class="flex flex-col items-center">
+        <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-white">
+          <img src="photo.jpg" alt="Photo de profil" class="object-cover w-full h-full">
+        </div>
+        <h1 class="text-2xl font-bold mt-4">Boris Simo</h1>
+        <h2 class="text-sm text-blue-200">Développeur Front-End & Web Designer</h2>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold border-b border-blue-300 pb-1">📞 Contact</h3>
+        <ul class="mt-2 text-sm space-y-1">
+          <li>Email : boris@gmail.com</li>
+          <li>GitHub : github.com/borisdev</li>
+          <li>LinkedIn : linkedin.com/in/boris</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold border-b border-blue-300 pb-1">🌍 Langues</h3>
+        <ul class="mt-2 text-sm">
+          <li>Français : courant</li>
+          <li>Anglais : intermédiaire</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold border-b border-blue-300 pb-1">🔧 Compétences diverses</h3>
+        <ul class="mt-2 text-sm space-y-1">
+          <li>Électronique de base</li>
+          <li>Design graphique</li>
+          <li>Figma, Canva</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Partie droite : pro et projets -->
+    <main class="md:col-span-2 p-8 space-y-10">
+      <section>
+        <h2 class="text-2xl font-bold text-blue-600 mb-2">🎓 Formation</h2>
+        <div>
+          <p class="font-semibold text-lg">Développement d’Applications</p>
+          <p class="text-sm text-gray-600">Université privée – Cameroun | 2024 – En cours</p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold text-blue-600 mb-2">💼 Projet personnel</h2>
+        <div>
+          <p class="font-semibold text-lg">Site de décoration intérieure</p>
+          <ul class="list-disc list-inside mt-2 text-gray-700 text-sm">
+            <li>Durée : 3 mois</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Design, animations CSS</li>
+            <li>Mise en ligne via GitHub Pages</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold text-blue-600 mb-2">🛠️ Compétences Techniques</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 list-disc list-inside text-sm text-gray-700">
+          <li>HTML5, CSS3, JavaScript, React.js, Tailwind CSS, UI/UX Design</li>
+          <li>Laravel, Node.js, API REST</li>
+          <li>MySQL, MongoDB</li>
+          <li>Git, GitHub, Docker, NPM, Testing (Jest, PHPUnit)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold text-blue-600 mb-2">💼 Compétences Non Techniques</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 list-disc list-inside text-sm text-gray-700">
+          <li>Méthodologie Agile/Scrum, gestion du temps</li>
+          <li>Présentation claire, travail d’équipe</li>
+          <li>Résolution de problèmes, créativité</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold text-blue-600 mb-2">📈 Expérience professionnelle</h2>
+        <div>
+          <h3 class="font-semibold text-lg">Stagiaire Développeur Web – Gestion des Bulletins de Notes des Étudiants</h3>
+          <p class="text-sm text-gray-600">École Supérieure La Canadienne | Juin 2024 – Août 2024</p>
+          <ul class="list-disc list-inside mt-2 text-gray-700 text-sm">
+            <li>Développement d’une application de gestion des bulletins de notes des étudiants.</li>
+            <li>Utilisation de **Laravel** pour le back-end, **React.js** pour le front-end et **Tailwind CSS** pour le design.</li>
+            <li>Création d'API REST pour la communication entre le front-end et le back-end.</li>
+            <li>Tests et déploiement de l’application sur le serveur interne de l'école.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

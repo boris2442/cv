@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boris Dev – Développeur Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <main class="flex items-center justify-center min-h-screen p-4">
+    <div class="bg-gray-800 rounded-xl shadow-xl p-6 max-w-md w-full text-center" id="card">
+      
+      <!-- PHOTO -->
+      <img src="pfofil.jpg" alt="Photo de Boris" class="w-28 h-28 mx-auto rounded-full border-4 border-blue-500 mb-4 shadow-md object-cover">
+
+      <h1 class="text-3xl font-bold mb-1">Salut, moi suis <span class="text-blue-400">Boris</span></h1>
+      <p class="text-lg text-gray-300 mb-4">Développeur Web Passionné 💻</p>
+
+      <!-- LIENS -->
+      <div class="flex justify-center gap-4 my-4">
+        <a href="https://github.com/borisdev" target="_blank" class="hover:text-blue-400">GitHub</a>
+        <a href="https://linkedin.com/in/tonprofil" target="_blank" class="hover:text-blue-400">LinkedIn</a>
+        <a href="mailto:boris@example.com" class="hover:text-blue-400">Email</a>
+      </div>
+
+      <!-- BOUTON CV -->
+      <a href="index2.html" download class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">📄 Télécharger mon CV</a>
+
+      <!-- TEXTE FOOTER -->
+      <p class="text-sm mt-6 text-gray-400">Disponible pour des projets freelance ou stages 🚀</p>
+    </div>
+  </main>
+
+  <!-- ANIMATION -->
+  <script>
+    ScrollReveal().reveal('#card', {
+      duration: 1200,
+      origin: 'bottom',
+      distance: '50px',
+      easing: 'ease-in-out'
+    });
+  </script>
+
+</body>
+</html>
